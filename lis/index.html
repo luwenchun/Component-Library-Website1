@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset=utf-8>
+		<title>HELLO</title>
+		<link rel=stylesheet type=text/css href=static/fonts/icon.css>
+		<link rel=icon href=static/favicon.png type=image/png>
+		<link href=app.css rel=stylesheet>
+	</head>
+
+	<body>
+		<div id=app></div>
+		<div class="wrapper">
+			<div class="wrapper-head">
+				<div data-v-4f25b2f8="" class="header clearfix">
+					<img data-v-4f25b2f8="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAgCAYAAADqgqNBAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1QkI0ODYyRDE5QTExMUU3QTU5RkRDRUJDNUU5QUIxRCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1QkI0ODYyRTE5QTExMUU3QTU5RkRDRUJDNUU5QUIxRCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjVCQjQ4NjJCMTlBMTExRTdBNTlGRENFQkM1RTlBQjFEIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjVCQjQ4NjJDMTlBMTExRTdBNTlGRENFQkM1RTlBQjFEIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+aQvRRQAABt5JREFUeNq0VwlsFGUU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" alt="logo" title="logo">
+					<ul data-v-4f25b2f8="" class="nav-l">
+						<li data-v-4f25b2f8="" class="active">
+							<a id='mzcjjaaa' data-v-4f25b2f8=""  class="">测试</a>
+						</li>
+						<li data-v-4f25b2f8="">
+							<a data-v-4f25b2f8="" href="#/orange" class="">橙子</a>
+						</li>
+						<li data-v-4f25b2f8="">
+							<a data-v-4f25b2f8="" href="#/banana" class="">香蕉</a>
+						</li>
+						<li data-v-4f25b2f8="">
+							<a data-v-4f25b2f8="" href="#/hello" class="">hello</a>
+						</li>
+						<li data-v-4f25b2f8="">
+							<a data-v-4f25b2f8="" href="#/test1" class="">test1</a>
+						</li>
+					</ul>
+					<ul data-v-4f25b2f8="" class="nav-r">
+						<li data-v-4f25b2f8="">
+							<input data-v-4f25b2f8="" type="text" placeholder="请输入关键字...">
+							<i data-v-4f25b2f8="" class="iconfont icon-yuyi yuyi"></i>
+						</li>
+						<li data-v-4f25b2f8="">
+							<span data-v-4f25b2f8="" class="toxi">您好，管理员[Admin]</span></li>
+						<li data-v-4f25b2f8="">
+							<i data-v-4f25b2f8="" class="iconfont icon-tixi"></i>
+						</li>
+						<li data-v-4f25b2f8="">
+							<i data-v-4f25b2f8="" class="iconfont icon-cada"></i>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="wrapper-content">
+				<!---->
+			</div>
+			<div class="wrapper-menu">
+				<ul class="menu">
+					<li>
+						<div class="link">一级导航
+							<i class="iconfont icon-xxjt"></i></div>
+						<ul class="submenu">
+							<li>
+								<a href="#">二级导航</a>
+							</li>
+							<li>
+								<a href="#">二级导航</a>
+							</li>
+							<li>
+								<a href="#">二级导航</a>
+							</li>
+							<li>
+								<a href="#">二级导航</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<div class="link">一级导航
+							<i class="iconfont icon-xxjt"></i></div>
+						<ul class="submenu">
+							<li>
+								<a href="#">二级导航</a>
+							</li>
+							<li>
+								<a href="#">二级导航</a>
+							</li>
+							<li>
+								<a href="#">二级导航</a>
+							</li>
+							<li>
+								<a href="#">二级导航</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<div class="link">一级导航
+							<i class="iconfont icon-xxjt"></i></div>
+						<ul class="submenu">
+							<li>
+								<a href="#">二级导航</a>
+							</li>
+							<li>
+								<a href="#">二级导航</a>
+							</li>
+							<li>
+								<a href="#">二级导航</a>
+							</li>
+							<li>
+								<a href="#">二级导航</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<div class="link">一级导航
+							<i class="iconfont icon-xxjt"></i></div>
+						<ul class="submenu">
+							<li>
+								<a href="#">二级导航</a>
+							</li>
+							<li>
+								<a href="#">二级导航</a>
+							</li>
+							<li>
+								<a href="#">二级导航</a>
+							</li>
+							<li>
+								<a href="#">二级导航</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="footer"></div>
+		</div>
+		<script type=text/javascript src=app.js></script>
+
+		<script>
+			$(function() {
+
+								$("#mzcjjaaa").bind("click", function() {
+									var $this = $(this);
+									$.getScript("modules/sampling.js", function() {});
+									//$.getScript("http://127.0.0.1:8080/lis/js/orange.js", function() {});
+									//$.getScript("http://127.0.0.1:8080/lis/js/banana.js", function() {});
+									//$.getScript("http://127.0.0.1:8080/lis/js/hello.js", function() {});
+									//$.getScript("http://127.0.0.1:8080/lis/js/test1.js", function() {});
+									setTimeout(function() {
+										window.location.href = "#/mzcj";
+									}, 100);
+				
+								})
+
+			
+			});
+		</script>
+
+	</body>
+
+</html>

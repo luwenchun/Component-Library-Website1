@@ -1,0 +1,60 @@
+{
+  "zh-CN": [
+    {
+      "name": "使用指南",
+      "children": [
+        {
+          "path": "/winning-quickstart",
+          "name": "前言"
+        }
+      ]
+    },
+    {
+      "name": "产品logo",
+      "children": [
+        {
+          "path": "/wnning-product-logo",
+          "name": "产品logo"
+        }
+      ]
+    },
+    {
+      "name": "系统图标",
+      "children": [
+        {
+          "path": "/winning-system-gallery",
+          "title": "IconFont 图标下载说明"
+        },
+        {
+          "path": "/font-class",
+          "title": "font-class引用"
+        },
+        {
+          "path": "/symbol",
+          "title": "symbol引用"
+        },{
+          "path": "/unicode",
+          "title": "unicode引用"
+        }
+      ]
+    },
+    {
+      "name": "原型元件库",
+      "children": [
+        {
+          "path": "/winning-prototype",
+          "name": "原型元件库"
+        }
+      ]
+    },
+    {
+      "name": "进度条",
+      "children": [
+        {
+          "path": "/winning-progress-bar",
+          "name": "进度条"
+        }
+      ]
+    }
+  ]
+}

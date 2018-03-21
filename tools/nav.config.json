@@ -1,0 +1,36 @@
+{
+  "zh-CN": [
+    {
+      "name": "使用指南",
+      "children": [
+        {
+          "path": "/winning-quickstart",
+          "name": "前言"
+        }
+      ]
+    },
+    {
+      "name": "经典工具组件",
+      "groups": [
+        {
+          "groupName": "工具类",
+          "list": [
+            {
+              "path": "/winning-browser",
+              "title": "卫宁浏览器"
+            } 
+          ]
+        } ,
+        {
+          "groupName": "应用类",
+          "list": [
+            {
+              "path": "/winning-reporting",
+              "title": "填报功能设计器"
+            } 
+          ]
+        }    
+      ]
+    }
+  ]
+}

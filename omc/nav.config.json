@@ -1,0 +1,38 @@
+{
+  "zh-CN": [
+    {
+      "name": "使用指南",
+      "children": [
+        {
+          "path": "/winning-quickstart",
+          "name": "前言"
+        }
+      ]
+    },
+    {
+      "name": "运维管理组件",
+      "groups": [
+        {
+          "groupName": "运维管理",
+          "list": [
+            {
+              "path": "/omc2",
+              "title": "异常分析组件"
+            },
+            {
+              "path": "/omc3",
+              "title": "运维保障工具"
+            },
+            {
+              "path": "/autoCompileTool",
+              "title": "自动编译工具"
+            },{
+              "path": "/autoUpgradeTool",
+              "title": "自动升级工具"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

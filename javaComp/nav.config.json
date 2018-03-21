@@ -1,0 +1,50 @@
+{
+  "zh-CN": [
+    {
+      "name": "使用指南",
+      "children": [
+        {
+          "path": "/winning-quickstart",
+          "name": "快速上手"
+        }
+      ]
+    },
+    {
+      "name": "服务端组件",
+      "groups": [
+        {
+          "groupName": "通用工具",
+          "list": [
+            {
+              "path": "/winning-framework-common",
+              "title": "Java通用组件"
+            },
+            {
+              "path": "/winning-framework-scheduler",
+              "title": "任务调度组件"
+            }
+          ]
+        },
+        {
+          "groupName": "数据访问",
+          "list": [
+            {
+              "path": "/winning-framework-data",
+              "title": "数据访问组件"
+            }      
+          ]
+        } ,
+        {
+          "groupName": "服务监控",
+          "list": [
+            {
+              "path": "/winning-framework-servicelog",
+              "title": "服务日志监控组件"
+            }    
+          ]
+        }
+          
+      ]
+    }
+  ]
+}

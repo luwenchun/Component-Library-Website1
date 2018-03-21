@@ -1,0 +1,55 @@
+{
+  "zh-CN": [
+    {
+      "name": "使用指南",
+      "children": [
+        {
+          "path": "/winning-quickstart",
+          "name": "前言"
+        }
+      ]
+    },
+    {
+      "name": "平台组件",
+      "groups": [
+        {
+          "groupName": "数据平台组件",
+          "list": [
+            {
+              "path": "/pt1",
+              "title": "系统框架模型"
+            },
+            {
+              "path": "/ums",
+              "title": "统一用户权限管理组件(UMS)"
+            },
+            {
+              "path": "/nest",
+              "title": "统一服务配置组件(Nest)"
+            },
+            {
+              "path": "/winning-framework-configcenter",
+              "title": "配置中心组件"
+            },
+            {
+              "path": "/cobra",
+              "title": "大数据交换监管平台(Cobra)"
+            },
+            {
+              "path": "/sjzk",
+              "title": "数据质控组件"
+            },
+            {
+              "path": "/hyzsjgl",
+              "title": "行业主数据管理组件"
+            },
+            {
+              "path": "/etl",
+              "title": "ETL组件"
+            }
+          ]
+        }    
+      ]
+    }
+  ]
+}

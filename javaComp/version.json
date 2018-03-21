@@ -1,0 +1,6 @@
+{
+"winning-framework-common":["1.0.0", "2.0.0"],
+"winning-framework-data":["2.0.1"],
+"winning-framework-scheduler":["1.0.0"],
+"winning-framework-servicelog":["1.0.0"]
+}

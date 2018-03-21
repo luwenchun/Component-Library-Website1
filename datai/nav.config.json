@@ -1,0 +1,31 @@
+{
+  "zh-CN": [
+    {
+      "name": "使用指南",
+      "children": [
+        {
+          "path": "/winning-quickstart",
+          "name": "前言"
+        }
+      ]
+    },
+    {
+      "name": "数据 · 智能",
+      "groups": [
+        {
+          "groupName": "BI组件",
+          "list": [
+            {
+              "path": "/bi",
+              "title": "BI基础组件"
+            },
+            {
+              "path": "/winning-framework-adhoc",
+              "title": "即席查询组件"
+            }
+          ]
+        }    
+      ]
+    }
+  ]
+}
