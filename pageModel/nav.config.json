@@ -10,49 +10,54 @@
       ]
     },
     {
-      "name": "产品logo",
-      "children": [
+      "name": "UED资源库",
+      "groups": [
         {
-          "path": "/wnning-product-logo",
-          "name": "产品logo"
-        }
-      ]
-    },
-    {
-      "name": "系统图标",
-      "children": [
-        {
-          "path": "/winning-system-gallery",
-          "title": "IconFont 图标下载说明"
+          "groupName": "产品logo",
+          "list": [
+            {
+              "path": "/wnning-product-logo",
+              "title": "产品logo"
+            }
+          ]
         },
         {
-          "path": "/font-class",
-          "title": "font-class引用"
+          "groupName": "系统图标",
+          "list": [
+            {
+              "path": "/winning-system-gallery",
+              "title": "IconFont 图标下载说明"
+            },
+            {
+              "path": "/font-class",
+              "title": "font-class引用"
+            },
+            {
+              "path": "/symbol",
+              "title": "symbol引用"
+            },{
+              "path": "/unicode",
+              "title": "unicode引用"
+            }
+          ]
         },
         {
-          "path": "/symbol",
-          "title": "symbol引用"
-        },{
-          "path": "/unicode",
-          "title": "unicode引用"
-        }
-      ]
-    },
-    {
-      "name": "原型元件库",
-      "children": [
+           "groupName": "原型元件库",
+          "list": [
+            {
+              "path": "/winning-prototype",
+              "title": "原型元件库"
+            }
+          ]
+        },
         {
-          "path": "/winning-prototype",
-          "name": "原型元件库"
-        }
-      ]
-    },
-    {
-      "name": "进度条",
-      "children": [
-        {
-          "path": "/winning-progress-bar",
-          "name": "进度条"
+         "groupName": "进度条",
+          "list": [
+            {
+              "path": "/winning-progress-bar",
+              "title": "进度条"
+            }
+          ]
         }
       ]
     }
